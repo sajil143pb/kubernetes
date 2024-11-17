@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: "1.12"
+        image: nginx
         resources:
           limits:
             memory: "128Mi"
